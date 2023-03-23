@@ -1,4 +1,4 @@
-# Modded MIUI Plugin
+# MIUI Plugin
  
 ![Picsart_22-12-14_07-47-34-971](https://telegra.ph/file/e3115e4d62ca8fea12c16.jpg)
 
