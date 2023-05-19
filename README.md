@@ -36,6 +36,9 @@ Download from [releases page](https://github.com/Mods-Center/Miui_Plugin_Mod/rel
 ![photo_2022-12-16_21-10-49](https://telegra.ph/file/6dacd422aa2e7bfabc158.png)
 ![photo_2022-12-16_21-10-45](https://telegra.ph/file/ac453a900735a98fb81b3.png)
 
+| Download Mods | Total |
+| --- | --- |
+| GitHub Releases | ![GitHub all releases](https://img.shields.io/github/downloads/Mods-Center/Miui_Plugin/total?logo=GitHub&style=for-the-badge&color=blue) |
 
 
 
