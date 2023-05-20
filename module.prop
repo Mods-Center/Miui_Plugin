@@ -4,3 +4,6 @@ version=V2
 versionCode=39
 author=🅺🅰🆂🅷🅸
 description=Credits: AdityaRoy's (some drawables), UserXP, alixan95r
+updateJson=https://raw.githubusercontent.com/Mods-Center/Miui_Plugin/main/update_channel/Miui_Plugin.json
+minapi=30
+maxapi=33
