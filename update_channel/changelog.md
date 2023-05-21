@@ -1,10 +1,8 @@
-
 ### Key updates
-- New iOS-Style UI
-- Added Control Center Mods
-- Fixed Plugin Extension wasn't showing in some devices
-- More Enhanced Animations
-- Fixed conflicting of card title in some languages
-- Fixed view in landscape mode
-- Fixed some codes to make it compatible with more themes
-- Only for A12/A13
+- Fixed Light Mod
+- Several errors related to the module installation and others related to the disappearance of the control center have been fixed. 
+
+### Note
+Now, there is no longer a need to use the volume keys; the script automatically detects the Android version you are using. 
+
+If you have signature verification disabled, the plugin and its extension will be installed automatically as an update, and you won't need to restart the device to apply the changes.
