@@ -8,31 +8,50 @@ REPLACE="
 "
 
 AUTOMOUNT=true
-SKIPMOUNT=false
-PROPFILE=false
-POSTFSDATA=false
 
 install_files() {
+    . $MODPATH/addon/install.sh
 ui_print " READ!!! "
-ui_print " "
 ui_print " Signature verification must be disabled"
 ui_print " mandatory for MIUI 14 users based on" 
 ui_print " Android 13; otherwise, the module will"
 ui_print " not work. "
 ui_print " "
 ui_print " "
+ui_print " Select your preferred theme:"
+ui_print " "
+ui_print "  Vol+ = Transparent background"
+ui_print "  Vol- = Dark background"
+ui_print " "
+
+if chooseport; then
+    ui_print "- Transparent background selected"
+    cp -rf $MODPATH/files/overlay/TransparentBG.apk $MODPATH/system/product/overlay
+else
+{
+    ui_print "- Dark background selected"
+    cp -rf $MODPATH/files/overlay/DarkBG.apk $MODPATH/system/product/overlay
+}
+
+fi
 
 Android=`getprop ro.build.version.release`
 
 if [ $Android = 12 ]; then
-    ui_print " Miui 13 - Android 12 detected"
+    ui_print " "
+    ui_print " Android 12 detected"
     ui_print " "
     cp -rf $MODPATH/files/plugin/SystemUIPlugin.apk $MODPATH/system/app/MiuiSystemUIPlugin
-else 
-{
-    ui_print " Miui 14 - Android 13 detected"
+elif [ $Android = 13 ]; then
+    ui_print " "
+	ui_print " Android 13 detected"
     ui_print " "
     cp -rf $MODPATH/files/plugin/SystemUIPlugin.apk $MODPATH/system/product/app/MiuiSystemUIPlugin
+else 
+{
+    ui_print " Version not supported"
+    ui_print " Exiting..."
+    exit
 }
 
 fi
@@ -51,20 +70,25 @@ if [ $result = Success ] && [ $result2 = Success ];then
     ui_print " Signature verification disablement detected"
     ui_print " proceeding to install as an update."
     ui_print " Installed successfully."
-    ui_print " Now you can use it without restarting your device."
+    ui_print " Reboot is only needed for background color."
     ui_print " "
     ui_print " "
 else
 {
     ui_print " "
     ui_print " Signature verification disablement not detected"
-    ui_print " Proceeding with normal installation."
+    ui_print " proceeding with normal installation."
+    ui_print " Reboot is needed."
     ui_print " "
     ui_print " "
 }
 
 fi
   
+}
+
+set_permissions() {
+    set_perm_recursive  $MODPATH  0  0  0755  0644
 }
 
 cleanup() {
@@ -84,16 +108,13 @@ run_install() {
 	ui_print "- Installing files"
 	ui_print " "
 	install_files
+	set_permissions
 	sleep 1
 	ui_print "- Cleaning up"
 	ui_print " "
 	cleanup
 	sleep 1
 	ui_print "- Removing any Plugin folder to avoid issues"
-}
-
-set_permissions() {
-    set_perm_recursive  $MODPATH  0  0  0755  0644
 }
 
 run_install
