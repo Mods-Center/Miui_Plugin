@@ -1,6 +1,6 @@
 # MIUI Plugin
  
-![Picsart_22-12-14_07-47-34-971](https://telegra.ph/file/51c95907b2aecabe63d7a.png)
+![Picsart_22-12-14_07-47-34-971](https://telegra.ph/file/4047ad10edd1c0b3dd3c9.png)
 
 MIUI Plugin App modified by [Kashi](https://t.me/kakashi1v1) with many features unlocked.
 Its installation is via Magisk on MIUI 13-14 based ROMs with Android 12 or higher.
