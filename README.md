@@ -8,6 +8,7 @@ Its installation is via Magisk on MIUI 13-14 based ROMs with Android 12 or highe
 **Changelog:**
 • New Aosp-Style UI
 • Added New tiles with selection 
+• Changed UI of brightness bar to make it look more similar to Aosp
 • Monet in CC by default
 • Only for A12/A13
 
