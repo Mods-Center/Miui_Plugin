@@ -1,45 +1,57 @@
-# MIUI Plugin
- 
-![Picsart_22-12-14_07-47-34-971](https://telegra.ph/file/4047ad10edd1c0b3dd3c9.png)
+<div align="center">
 
-MIUI Plugin App modified by [Kashi](https://t.me/kakashi1v1) with many features unlocked.
-Its installation is via Magisk on MIUI 13-14 based ROMs with Android 12 or higher.
+<img src="https://telegra.ph/file/4047ad10edd1c0b3dd3c9.png" alt="MIUI Plugin Mod" width="100%"/>
 
-**Changelog:**
-• New Aosp-Style UI
-• Added New tiles with selection 
-• Changed UI of brightness bar to make it look more similar to Aosp
-• Monet in CC by default
-• Only for A12/A13
+# MIUI Plugin Mod
 
-For issues or questions you can send a message in [Telegram](https://t.me/amogus_discussion) group.
+**The MIUI SystemUI plugin with an AOSP-style control center.**
 
+[![Release](https://img.shields.io/github/v/release/Mods-Center/Miui_Plugin?style=for-the-badge&label=release&color=0a84ff)](https://github.com/Mods-Center/Miui_Plugin/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Mods-Center/Miui_Plugin/total?style=for-the-badge&color=30d158)](https://github.com/Mods-Center/Miui_Plugin/releases)
+[![Stars](https://img.shields.io/github/stars/Mods-Center/Miui_Plugin?style=for-the-badge&color=ffd60a)](https://github.com/Mods-Center/Miui_Plugin/stargazers)
 
-### Download
+</div>
 
-Download from [releases page](https://github.com/Mods-Center/Miui_Plugin_Mod/releases)
+> [!WARNING]
+> **Legacy MIUI project. No longer updated.** It's kept for MIUI 13–14 users. HyperOS users: see [HyperOS Plugin](https://github.com/Mods-Center/HyperOS-PLugin).
 
-### Note
-• Signature verification must be disabled mandatory for MIUI 14 users based on Android 13; otherwise, the module will not work. 
+## ✨ Features
+- AOSP-style UI
+- New tiles that you can pick
+- AOSP-style brightness bar
+- Monet colours in the control center by default
 
-**Instructions**
-• Download and flash the zip in magisk 
-• Reboot the device
-• Reboot again if having issues of opening panel
-• Now Enjoy
+## 📋 Requirements
+- MIUI 13–14, Android 12/13
+- Magisk
 
+## 📥 Installation
+1. Download the latest zip from [**Releases**](https://github.com/Mods-Center/Miui_Plugin/releases/latest).
+2. Flash it in Magisk.
+3. If the panel doesn't open, reboot once more.
+4. Reboot your device.
 
-### Screenshots
-![photo_2022-12-16_21-10-41](https://telegra.ph/file/f1b20dda26c981335dfe1.png)
-![photo_2022-12-16_21-10-37](https://telegra.ph/file/2c2e3f797ca577c8b7737.png)
-![photo_2022-12-16_21-10-31](https://telegra.ph/file/98537b1ca24f88b0c9a95.png)
-![photo_2022-12-16_21-10-53](https://telegra.ph/file/376afef582163ab36ba9b.png)
-![photo_2022-12-16_21-10-49](https://telegra.ph/file/ffaa384b1ee0d422f5f12.png)
-![photo_2022-12-16_21-10-45](https://telegra.ph/file/a7a42ed5ff6e2b175e252.png)
+## ⚠️ Notes
+- MIUI 14 (Android 13): Signature verification must be disabled. Flash [Apk Protection Patch](https://github.com/Mods-Center/Apk-Protection-Patch) or [Apk Signature Verification Patch](https://github.com/Mods-Center/Apk-Signature-Verification-Patch) first, or use the Core Patch LSPosed module.
+- If you use this in your ROM, please credit Mods Center. Not for paid ROMs.
 
-| Download Mods | Total |
-| --- | --- |
-| GitHub Releases | ![GitHub all releases](https://img.shields.io/github/downloads/Mods-Center/Miui_Plugin/total?logo=GitHub&style=for-the-badge&color=blue) |
+## 📸 Screenshots
+<p align="center">
+  <img src="https://telegra.ph/file/f1b20dda26c981335dfe1.png" width="23%" alt="MIUI Plugin"/>
+  <img src="https://telegra.ph/file/2c2e3f797ca577c8b7737.png" width="23%" alt="MIUI Plugin"/>
+  <img src="https://telegra.ph/file/98537b1ca24f88b0c9a95.png" width="23%" alt="MIUI Plugin"/>
+  <img src="https://telegra.ph/file/376afef582163ab36ba9b.png" width="23%" alt="MIUI Plugin"/>
+  <br/>
+  <img src="https://telegra.ph/file/ffaa384b1ee0d422f5f12.png" width="23%" alt="MIUI Plugin"/>
+  <img src="https://telegra.ph/file/a7a42ed5ff6e2b175e252.png" width="23%" alt="MIUI Plugin"/>
+</p>
 
+---
 
+<div align="center">
 
+Made by **[Kashi](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
+
+[📢 Channel](https://t.me/kashis_cringey_stuffs) · [💬 Support group](https://t.me/bootloop_discussion) · [🐞 Report a bug](https://github.com/Mods-Center/Miui_Plugin/issues)
+
+</div>
