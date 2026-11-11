@@ -13,7 +13,7 @@
 </div>
 
 > [!WARNING]
-> **Legacy MIUI project. No longer updated.** It's kept for MIUI 13–14 users. HyperOS users: see [HyperOS Plugin](https://github.com/Mods-Center/HyperOS-PLugin).
+> **Legacy MIUI project. No longer updated.** It's kept for MIUI 13–14 users. HyperOS users: see [HyperOS Plugin](https://github.com/Mods-Center/HyperOS-Plugin).
 
 ## ✨ Features
 - AOSP-style UI
