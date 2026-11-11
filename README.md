@@ -15,27 +15,27 @@
 > [!WARNING]
 > **Legacy MIUI project. No longer updated.** It's kept for MIUI 13–14 users. HyperOS users: see [HyperOS Plugin](https://github.com/Mods-Center/HyperOS-Plugin).
 
-## ✨ Features
+## Features
 - AOSP-style UI
 - New tiles that you can pick
 - AOSP-style brightness bar
 - Monet colours in the control center by default
 
-## 📋 Requirements
+## Requirements
 - MIUI 13–14, Android 12/13
 - Magisk
 
-## 📥 Installation
+## Installation
 1. Download the latest zip from [**Releases**](https://github.com/Mods-Center/Miui_Plugin/releases/latest).
 2. Flash it in Magisk.
 3. If the panel doesn't open, reboot once more.
 4. Reboot your device.
 
-## ⚠️ Notes
+## Notes
 - MIUI 14 (Android 13): Signature verification must be disabled. Flash [Apk Protection Patch](https://github.com/Mods-Center/Apk-Protection-Patch) or [Apk Signature Verification Patch](https://github.com/Mods-Center/Apk-Signature-Verification-Patch) first, or use the Core Patch LSPosed module.
 - If you use this in your ROM, please credit Mods Center. Not for paid ROMs.
 
-## 📸 Screenshots
+## Screenshots
 <p align="center">
   <img src="https://telegra.ph/file/f1b20dda26c981335dfe1.png" width="23%" alt="MIUI Plugin"/>
   <img src="https://telegra.ph/file/2c2e3f797ca577c8b7737.png" width="23%" alt="MIUI Plugin"/>
@@ -50,8 +50,8 @@
 
 <div align="center">
 
-Made by **[Kashi](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
+Made by **[🅺🅰🆂🅷🅸](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
 
-[📢 Channel](https://t.me/kashis_cringey_stuffs) · [💬 Support group](https://t.me/bootloop_discussion) · [🐞 Report a bug](https://github.com/Mods-Center/Miui_Plugin/issues)
+[Channel](https://t.me/kashis_cringey_stuffs) · [Support group](https://t.me/bootloop_discussion) · [Report a bug](https://github.com/Mods-Center/Miui_Plugin/issues)
 
 </div>
