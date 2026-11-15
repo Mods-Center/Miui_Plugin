@@ -1,8 +1,9 @@
 id=miui_plugin_mod
 name=MIUI Aosp Plugin by Mods Center
 version=v3.250623
-versionCode=39
+versionCode=40
 author=🅺🅰🆂🅷🅸
 description=Credits: UserXP, alixan95r, naokoshoto.
 minapi=30
 maxapi=33
+updateJson=https://raw.githubusercontent.com/Mods-Center/Miui_Plugin/main/update.json
